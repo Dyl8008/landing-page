@@ -36,6 +36,10 @@ img{
     flex-direction: column;
     justify-content: space-between;
     text-transform: capitalize;
+    background-color: red;
+}
+.detalleProducto{
+    flex:1 1 60px;
 }
 .valoresProducto{
     display: flex;
