@@ -5,27 +5,53 @@
 }
 
 
-body{background-color: beige;}
+body{background-color: beige;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 img{
     height: 100%; width: 100%;
     object-fit: cover;
 }
 
 .producto{
-    width: 350px;
-    height: 100px;
-    background-color: steelblue;
+    width: 450px;
+    height: 150px;
+    background-color: rgb(31, 197, 211);
     padding: 10px;
     border-radius: 8px;
     display: flex;
     flex-direction: row;
+    color: rgb(189, 100, 128);
+    gap: 10px;
 }
 .fotoProducto{
     width: 80px;
-    flex: 0 1 160px;
+    flex: 0 0 160px;
     overflow: hidden;
     border-radius: 6px;
     overflow: hidden;
 }
+.datoProducto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+.valoresProducto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
+}
+.valoracion{
+    background-color: rgb(244,215,87);
+    height: 30px;
+    aspect-ratio: 2/2;
+    border-radius: 50%;
+    line-height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.producto:first-child{
+    background-color: rgb(146, 233, 153);
+}
    
