@@ -5,7 +5,9 @@
 }
 
 
-body{background-color: beige;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+body{background-color: beige;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;display:grid;
+}
+
 img{
     height: 100%; width: 100%;
     object-fit: cover;
@@ -51,7 +53,15 @@ img{
 }
 
 
-.producto:first-child{
-    background-color: rgb(146, 233, 153);
+.producto:nth-child(odd){
+    background-color: transparent;
+    box-shadow: 2px -2px 0px 5px rgba(203,77,77, 0.5);
+    color: gray;
+    flex-direction: row-reverse;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+
 }
    
