@@ -12,6 +12,11 @@ img{
     height: 100%; width: 100%;
     object-fit: cover;
 }
+.columna{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
 
 .producto{
     width: 450px;
@@ -34,9 +39,10 @@ img{
 .datoProducto{
     display: flex;
     flex-direction: column;
+    flex:1 1 60px;
     justify-content: space-between;
     text-transform: capitalize;
-    background-color: red;
+    background-color: transparent;
 }
 .detalleProducto{
     flex:1 1 60px;
@@ -56,16 +62,9 @@ img{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
+/*para los pares es even y los elemntos impares es odd*/
 .producto:nth-child(odd){
-    background-color: transparent;
-    box-shadow: 2px -2px 0px 5px rgba(203,77,77, 0.5);
-    color: gray;
+    color: rgb(49, 77, 75);
     flex-direction: row-reverse;
-}
-.columna{
-    display: flex;
-    flex-direction: column;
-
-}
-   
+    background-color: rgb(39, 238, 162);
+}   
