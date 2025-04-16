@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fusion store</title>
+    <title>Fusion store</title> 
+    <link rel="stylesheet" href="css/fusion.css">
 </head>
 <body>
-    
+    <main class="contenedor-login">
+        <h4 class="logo">FUSION</h4>
+
+        <form class="LoginFormContainer">
+            <div id="formLogin">
+
+
+                <input type="text" id="usuario" 
+                name="usuario" placeholder="Usuario"
+                required>
+
+                <input type="password" id="contraseña"
+                name="contraseña" placeholder="Contraseña"
+                required>
+            </div>
+            <div class="actionLogin">
+
+            </div>  
+            <div class="actionLogin">
+                <button type="submit"
+                class="btnLogin">Iniciar Sesion</button>
+                <span>¿Olvidaste la contraseña?
+                    <a href="#">
+                    Recordar Contraseña</a>
+                </span>
+                
+            </div>
+        </form>
+   </main>
 </body>
 </html>
