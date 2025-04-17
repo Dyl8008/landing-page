@@ -67,11 +67,14 @@ h4.logo{
 .actionLogin{
     min-height: 30px;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
 }
 .btnLogin{
+    text-align: center;
+    line-height: 50px;
     width: 100%;
-    height: 30px;
+    height: 50px;
     border-radius: 5px;
     border: 1px solid black;
     background-color: blueviolet;
