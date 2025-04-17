@@ -12,13 +12,12 @@ body{
 }
 
 .contenedor-login{
-
-    width: 80%;
-    height: 80%;
+    margin: auto;
+    width: 50%;
+    height: 100%;
     display: grid;
     place-items: center;
-    padding: 1em;
-    position: relative;
+    padding: 10px;
 }
 h4.logo{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -48,19 +47,16 @@ h4.logo{
    width: 100%;
    display: flex;
    flex-direction: column;
-   gap: 10px;
+   justify-content: center;
+   gap: 2em;
 }
-.actionLogin{
-    min-height: 30px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-}
+
 #formLogin input[type="text"], #formLogin input[type="password"]
 {
     width: 100%;
-    height: 30px;
+    height: 50px;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 2px solid black;
     text-align: center;
 }
 #formLogin input[type="text"]:focus,#formLogin input[type="password"]:focus{
@@ -71,7 +67,7 @@ h4.logo{
 .actionLogin{
     min-height: 30px;
     width: 100%;
-
+    background-color: rgb(255, 255, 255);
 }
 .btnLogin{
     width: 100%;
