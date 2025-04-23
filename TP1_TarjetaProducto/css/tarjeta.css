@@ -8,21 +8,23 @@
 
 
 body{background-color: beige;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;display:grid;
+padding: .5em;
 }
 
 img{
     height: 100%; width: 100%;
     object-fit: cover;
 }
-.columna{
-    gap: 20px;
+.contenedordeProducto{	
+    gap: 10px;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .producto{
-    width: 450px;
-    height: 150px;
+    width: 100%;
+    height: 120px;
     background-color: rgb(31, 197, 211);
     padding: 10px;
     border-radius: 8px;
@@ -70,3 +72,20 @@ img{
     flex-direction: row-reverse;
     background-color: rgb(39, 238, 162);
 }  
+/*-----------------------------------------------------*/
+header{
+    width: 100%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(212, 235, 169);
+    padding: 10px;
+    border-radius: 8px;
+    color: rgb(189, 100, 128);
+}
