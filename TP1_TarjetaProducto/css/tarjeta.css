@@ -89,3 +89,10 @@ header{
     border-radius: 8px;
     color: rgb(189, 100, 128);
 }
+.buscadorcarrito{
+display: flex;
+gap: 0.5em;
+}
+.buscador input{
+    display: none;
+}
