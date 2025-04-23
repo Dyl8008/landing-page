@@ -75,7 +75,8 @@ h4.logo{
     width: 100%;
     display: flex;
     flex-direction: column;
-    color: red;
+    color: rgb(17, 0, 255);
+     text-shadow: 0 0 10px violet;
 }
 .btnLogin{
     text-align: center;
@@ -95,4 +96,14 @@ h4.logo{
 .btnLogin:hover{
 background-color: #6871f6;
 color: white;
+}
+.actionLogin a{
+    color: #000000;
+    font-weight: 600;
+    text-shadow: 0 0 10px #fff;
+    transition: all 0.3s ease-in-out;
+}
+.actionLogin a:hover{
+    color: #6871f6;
+    text-shadow: 0 0 10px violet;
 }
