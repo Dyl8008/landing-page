@@ -61,6 +61,7 @@ h4.logo{
     border: 2px solid black;
     text-align: center;
     transition: all 0.3s ease-in-out;
+    box-shadow:  0 0 10px violet, 0 0 20px purple
 }
 #formLogin input[type="text"]:focus,#formLogin input[type="password"]:focus{
     background-color: rgba(255, 255, 255, 0.1);
@@ -88,6 +89,8 @@ h4.logo{
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    box-shadow:  0 0 10px violet, 0 0 20px purple
+    
 }
 .btnLogin:hover{
 background-color: #6871f6;
