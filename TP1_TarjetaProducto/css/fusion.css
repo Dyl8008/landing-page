@@ -75,7 +75,7 @@ h4.logo{
     width: 100%;
     display: flex;
     flex-direction: column;
-    color: rgb(17, 0, 255);
+    color: rgb(0, 4, 255);
      text-shadow: 0 0 10px violet;
 }
 .btnLogin{
@@ -94,7 +94,7 @@ h4.logo{
     
 }
 .btnLogin:hover{
-background-color: #6871f6;
+background-color: violet;
 color: white;
 }
 .actionLogin a{
