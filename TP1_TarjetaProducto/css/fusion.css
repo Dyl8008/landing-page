@@ -13,24 +13,25 @@ body{
 
 .contenedor-login{
     margin: auto;
-    width: 50%;
+    width: 100%;
     height: 100%;
     display: grid;
     place-items: center;
-    padding: 10px;
+    padding: 1em;
+    background-image: url(../img/juno.jpg);
+    background-size: cover;
+    background-position: top center; 
+    
 }
 h4.logo{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
-    color: gray;
+    color: violet;
     text-align: center;
     font-size: 3em;
     /*alineacion de elementos con posicion absolute*/
     position: absolute;
     top: 15vh;
-    
-    
-    
 }
 .LoginFormContainer{
     width: 100%;
@@ -40,7 +41,7 @@ h4.logo{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    gap: 10;
 }
 #formLogin{
    min-height: 30px;
@@ -69,6 +70,7 @@ h4.logo{
     width: 100%;
     display: flex;
     flex-direction: column;
+    color: red;
 }
 .btnLogin{
     text-align: center;
