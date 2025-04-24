@@ -4,6 +4,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    list-style: none;
+
 }
 
 
@@ -93,6 +95,33 @@ header{
 display: flex;
 gap: 0.5em;
 }
+header button{
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 1.5em;
+    cursor: pointer;
+    
+}
+header button:hover{
+    color: steelblue;
+    text-shadow: 0px 0px 5px rgb(65, 70, 66);
+}
+.Logo{
+    font-size: 1.5em;
+}
 .buscador input{
     display: none;
+}
+.categoriaRopa{
+    display: flex;
+    gap: 1em;
+    width: 100%;
+    overflow-x: auto;
+}
+.categoriaRopa li{
+    font-size: 1.5em;
+    cursor: pointer;
+    flex: 0 0 100px;
+    background-color: aliceblue;
 }
